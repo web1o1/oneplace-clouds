@@ -1,7 +1,7 @@
 # oneplace-clouds
 
-reimplementation of a css3 tutorial using meteor
+This is a demo for https://github.com/yasinuslu/oneplace
+
+Implemented using this tutorial: http://www.clicktorelease.com/blog/how-to-make-clouds-with-css-3d
 
 Demo: http://oneclouds.meteor.com/
-
-Tutorial: http://www.clicktorelease.com/blog/how-to-make-clouds-with-css-3d
