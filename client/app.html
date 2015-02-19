@@ -1,0 +1,33 @@
+<head>
+
+</head>
+
+<body>
+  {{> Demo }}
+</body>
+
+<template name="Demo">
+  <div id="viewport">
+    {{> World}}
+  </div>
+</template>
+
+<template name="World">
+  <div id="world" style="{{ style }};">
+    {{#each clouds}}
+      {{> Cloud}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="Cloud">
+  <div class="cloudBase" style="{{ style }};">
+    {{#each layers}}
+      {{> Layer}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="Layer">
+  <img src="/cloud.png" class="cloudLayer" style="{{ style }}">
+</template>
