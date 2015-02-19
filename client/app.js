@@ -90,14 +90,6 @@ Template.World.rendered = function() {
     var xAngle = world.get('xAngle');
     var yAngle = world.get('yAngle');
 
-    // world.Layers.update({}, {
-    //   $inc: {
-    //     a: .1 * Math.random()
-    //   }
-    // }, {
-    //   multi: true
-    // });
-    //
     Tracker.nonreactive(function() {
       world.Layers.find().forEach(function(layer) {
         world.Layers.update(layer._id, {
