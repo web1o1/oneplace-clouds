@@ -3,4 +3,5 @@
 reimplementation of a css3 tutorial using meteor
 
 Demo: http://oneclouds.meteor.com/
-Original: http://www.clicktorelease.com/code/css3dclouds/
+
+Tutorial: http://www.clicktorelease.com/blog/how-to-make-clouds-with-css-3d
